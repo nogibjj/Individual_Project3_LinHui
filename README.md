@@ -1,19 +1,44 @@
-This is a template for course IDS706 Projects. It contains:
+# Databricks ETL Pipeline
 
-1. `.devcontainer` includes a Dockerfile and devcontainer.json. The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
+Pipeline steps:
 
-2. `workflows` includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
+1. Use Databricks features to explore a raw dataset.
 
-3. `.gitignore` is used to specify which files or directories should be excluded from version control when using Git.
+2. Create a Databricks notebook to ingest raw source data and write the raw data to a target table.
 
-4. `Makefile` is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
+3. Create a Databricks notebook to transform the raw source data and write the transformed data to a target table.
 
-5. `README.md` is the instruction file for the readers.
+4. Create a Databricks notebook to load the transformed data and plot results, with proper error handling and data validation.
 
-6. `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
+5. Automate the data pipeline with a Databricks job.
 
-7. `test_main.py` is a test file for main.py that can successfully run in IDEs.
+## Delta Lake
+The transformed data is stored as Delta Lake file, as it's a reliable form with high performace.
+It's retrieved from `dbfs:/user/hive/warehouse/prepared_song_data`
 
-8. `main.py` is a Python file.
 
-It used gitbuh actions to test and run. All processes are completed.
+## Notebooks
+Scripts are available in this repo.
+
+
+## Spark SQL
+Spark SQL offers high-performance, scalable data processing across diverse sources, with seamless integration in the Apache Spark ecosystem. It's used for data processing in this project.
+
+
+## Error handling and data validation
+Try-except is used in the program to make sure file is read without error, and data quality is good to proceed with.
+
+
+## Workflow job
+
+
+
+## Trigger schedule
+
+
+
+## Visualization and comment
+
+
+
+## Video demo
