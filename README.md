@@ -47,6 +47,3 @@ Top artists tend to have similar amount of popular songs, and it'd be good to ma
 
 ## Video Demo
 https://www.youtube.com/watch?v=TPOPWdORElQ
-
-
-## Video demo
