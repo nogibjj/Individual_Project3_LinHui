@@ -11,6 +11,8 @@ CREATE OR REPLACE TABLE
     processed_time TIMESTAMP
   );
 
+
+
 INSERT INTO
   prepared_song_data
 SELECT
