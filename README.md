@@ -31,14 +31,18 @@ Try-except is used in the program to make sure file is read without error, and d
 
 ## Workflow job
 
+<img width="599" alt="Screenshot 2023-11-13 at 22 44 15" src="https://github.com/nogibjj/Individual_Project3_LinHui/assets/83142133/5259d288-c285-4e3e-8b98-007a8be0e38a">
 
 
 ## Trigger schedule
+<img width="328" alt="Screenshot 2023-11-13 at 22 44 33" src="https://github.com/nogibjj/Individual_Project3_LinHui/assets/83142133/d39c5dfb-7148-4b5e-afe1-8af43b6300fa">
 
 
 
 ## Visualization and comment
+<img width="647" alt="Screenshot 2023-11-13 at 22 45 06" src="https://github.com/nogibjj/Individual_Project3_LinHui/assets/83142133/2bbbfbbf-6da7-4df3-a57a-9b90f74a7518">
 
+Top artists tend to have similar amount of popular songs, and it'd be good to make a diversed playlist with top songs from those artists. It would help people to explore more out of the interest to ones they love.
 
 
 ## Video demo
