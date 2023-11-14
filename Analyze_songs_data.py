@@ -1,6 +1,6 @@
 from pyspark.sql.utils import AnalysisException
-import pandas as pd
 import matplotlib.pyplot as plt
+import pyspark
 
 # error handling and data validation
 try:
@@ -11,7 +11,8 @@ except AnalysisException as e:
     print(f"Error reading data: {e.description}")
 
 try:
-  if prepared_song_data.filter(prepared_song_data["artist_name"].isNull()).count() > 0:
+  if prepared_song_data.filter\
+  (prepared_song_data["artist_name"].isNull()).count() > 0:
         raise ValueError("Null values found in artist_name column")
 
 except ValueError as ve:
@@ -40,7 +41,8 @@ result_df.show()
 # Convert Spark DataFrame to Pandas DataFrame
 df = result_df.toPandas()
 
-# Assuming the result set is large, you might want to visualize the top N results
+# Assuming the result set is large, you might want to visualize the top N
+# results
 top_n = df.head(20)
 
 # Create a bar chart
