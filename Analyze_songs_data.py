@@ -1,6 +1,5 @@
 from pyspark.sql.utils import AnalysisException
 import matplotlib.pyplot as plt
-import pyspark
 
 # error handling and data validation
 try:
