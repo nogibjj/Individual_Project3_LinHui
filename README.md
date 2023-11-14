@@ -45,4 +45,8 @@ Try-except is used in the program to make sure file is read without error, and d
 Top artists tend to have similar amount of popular songs, and it'd be good to make a diversed playlist with top songs from those artists. It would help people to explore more out of the interest to ones they love.
 
 
+## Video Demo
+https://www.youtube.com/watch?v=TPOPWdORElQ
+
+
 ## Video demo
